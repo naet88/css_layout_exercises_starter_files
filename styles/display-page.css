@@ -1,0 +1,67 @@
+main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	padding-top: 50px;
+	font-size: 0;
+
+}
+
+.firstline {
+	display:inline-block;
+	height: 200px;
+	width: 50%;
+	border: 1px solid black;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.secondline {
+	display:inline-block;
+	height: 300px;
+	width: 33.33%;
+	border: 1px solid black;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.black {
+	background-color: black;
+}
+
+.orange {
+	background-color: orange;
+}
+
+/* NOT SURE WHY THIS SECOND ONE DOESN'T WORK...
+main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	padding-top: 50px;
+	font-size: 0;
+}
+
+.firstline {
+	display:inline-block;
+	width: 50%;
+	height: 200px;	
+	border: 1px solid black;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+*/
