@@ -1,1 +1,67 @@
+/*these don't work in different browser sizes...it looks right but I know it's wrong.  */
 
+/*begin navigation*/
+ 
+nav {
+	padding-left: 60px;
+	padding-right: 60px;
+	background-color: gray;
+	height: 120px;
+}
+
+.navbar {
+	display: inline-block;
+	position: relative;
+	bottom: 20px;
+
+}
+
+li::after {
+	content: " |";
+}
+
+.img-circle {
+	margin-top: 20px;
+	border-radius: 50%;
+	border: 1px solid black;
+	height: 70%;
+}
+
+/*end navigation*/
+
+.green-box {
+	position:relative;
+	top: 200px;
+	width: 600px;
+	height:300px;
+	border: 10px green dotted;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.spacecat {
+	position: absolute;
+	bottom: 200px;
+	right: 500px;
+	height: 200px;
+	width: 200px;
+}
+
+.spacedog {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	height: 200px;
+	width: 200px;
+}
+
+body {
+/*is the url not a string? and, why does it need ..*/	
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+/*body {
+	/*background-image: src="images/outerspace_landscape.jpeg";
+ 	background: url("images/outerspace_landscape.jpeg") no-repeat;
+
+}*/
